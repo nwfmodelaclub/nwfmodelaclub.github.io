@@ -1,0 +1,95 @@
+﻿/*Main style sheet for the entire website*/
+ @font-face { font-family: Fordscript; src: url('../fonts/Fordscript.ttf'); } 
+
+body {
+   background-color: #41628f;
+}
+
+header {
+   margin-bottom: 15px;
+}
+
+#title {
+   text-align: center;
+   font-family: Fordscript, Times, serif;
+   color: antiquewhite;
+}
+
+#indexNav {
+   margin: auto;
+   float: none;
+}
+
+nav a {
+   color: antiquewhite;
+   font-weight: bold;
+   margin: 10px;
+}
+
+#pageContent {
+   margin: auto; 
+   border: 5px solid #f0c554;
+   float: none;
+}
+
+#aboutContent {
+   margin-top: 25px;
+}
+
+#aboutImgs {
+   margin-top: 25px;
+}
+
+#aboutImgs img {
+   margin-bottom: 25px;
+}
+
+#linksContent {
+   margin-top: 15px;
+}
+
+#indexPicRow1, #indexPicRow2, #linksPicRow {
+   text-align: center;
+}
+
+#indexPicRow1 img, #indexPicRow2 img {
+   margin: 30px;
+}
+
+#linksPicRow img {
+   margin: 25px;
+   max-height: 100%;
+   max-width: 100%;
+}
+
+p {
+   font-weight: bold;
+}
+
+#indexText {
+   padding: 15px;
+}
+
+.eventsCalendar {
+   position: relative;
+   padding-bottom: 75%;
+   height: 0;
+   overflow: hidden;
+   margin: 10px;
+}
+ 
+.eventsCalendar iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+h4 {
+   font-weight: bold;
+}
+
+ul, ul a {
+   color: #f0c554;
+}
