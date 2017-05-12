@@ -44,6 +44,10 @@ nav a {
    margin-bottom: 25px;
 }
 
+#aboutLogos {
+   text-align: center;
+}
+
 #linksContent {
    margin-top: 15px;
 }
@@ -89,8 +93,22 @@ p {
 
 h4 {
    font-weight: bold;
+   color: antiquewhite;
 }
 
 ul, ul a {
    color: #f0c554;
+}
+
+#footerRow {
+   float: none;
+   margin: auto;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.fa-facebook-square {
+   color: antiquewhite;
+   margin-top: 10px; 
+   float: right;
 }
