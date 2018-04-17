@@ -52,7 +52,7 @@ nav a {
    margin-top: 15px;
 }
 
-#indexPicRow1, #indexPicRow2, #linksPicRow {
+#indexPicRow1, #indexPicRow2, #linksPicRow, #ECCSPicRow {
    text-align: center;
 }
 
@@ -60,7 +60,7 @@ nav a {
    margin: 30px;
 }
 
-#linksPicRow img {
+#linksPicRow img, #ECCSPicRow img {
    margin: 25px;
    max-height: 100%;
    max-width: 100%;
@@ -98,6 +98,19 @@ h4 {
 
 ul, ul a {
    color: #f0c554;
+}
+
+.eccsPdfLink {
+   color: #f0c554;
+   font-weight: bold;
+}
+
+#eccsContent {
+   text-align: center;
+}
+
+.eccsPageLink {
+   margin: auto;
 }
 
 #footerRow {
