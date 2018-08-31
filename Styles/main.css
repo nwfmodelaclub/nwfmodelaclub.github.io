@@ -52,7 +52,7 @@ nav a {
    margin-top: 15px;
 }
 
-#indexPicRow1, #indexPicRow2, #linksPicRow, #ECCSPicRow, #SponsorPicRow {
+#indexPicRow1, #indexPicRow2, #linksPicRow, #ECCSPicRow, .SponsorPicRow {
    text-align: center;
 }
 
@@ -66,7 +66,7 @@ nav a {
    max-width: 100%;
 }
 
-#SponsorPicRow img {
+.SponsorPicRow img {
    margin: 10px;
    max-height: 100%;
    max-width: 100%;
